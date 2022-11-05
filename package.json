@@ -1,0 +1,22 @@
+{
+  "name": "visitors",
+  "version": "1.0.0",
+  "description": "Aplicacion para registrar visitas del vecindario",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "set NODE_ENV=production&& nodemon server.js"
+  },
+  "author": "juan arias",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "sequelize": "^6.25.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
